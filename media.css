@@ -1,0 +1,1187 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* =====================================Home section=================================== */
+    
+    .home {
+        top: 8px;
+    }
+    
+    .home .home-contant {
+        width: 60%;
+    
+    }
+    
+    .home .home-img {
+        width: 40%;
+
+    }
+    
+    .home-contant h2 {
+        font-size: 40px;
+
+    }
+    
+    .home-contant p {
+        font-size: 16px;
+    }
+    
+
+    
+    .home-contant .book {
+        padding: 10px 30px;
+        font-size: 14px;
+
+    }
+    
+    .home-contant .video .watch {
+        margin-left: 15px;
+    }
+    
+    .home-contant .video {
+        font-size: 16px;
+    }
+    
+    .home-contant .buttons .icon::after {
+        width: 20px;
+        height: 20px;
+    
+    
+    }
+
+    /* =====================================Chefs section=================================== */
+
+    .Chefs-contant h2 {
+        font-size: 10px;
+    }
+    
+    .Chefs-contant p {
+        font-size: 40px;
+    }
+    
+    .Chefs-contant span {
+        font-size: 40px;
+    }
+    
+    .Chefs1 {
+        margin: 0px 20px 0px 0px;
+    }
+    
+    .Chefs1 .social {
+        top: 15px;
+    }
+    
+    .Chefs1 .social li i {
+        font-size: 10px;
+    }
+    
+    .Chefs1 h3 {
+        font-size: 15.72px;
+    }
+    
+    .Chefs1 span {
+        font-size: 12px;
+    }
+    
+    .Chefs1 p {
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+    
+    .Chefs2 {
+        width: 33.333%;
+        /* margin: 0px 10px 0px 10px; */
+    }
+    
+    .Chefs2 .social {
+        top: 15px;
+    }
+    
+    .Chefs2 .social li i {
+        font-size: 10px;
+        padding: 10px;
+    }
+    
+    .Chefs2 h3 {
+        font-size: 15.72px;
+    }
+    
+    .Chefs2 span {
+        font-size: 12px;
+    }
+    
+    .Chefs2 p {
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+    .Chefs3 .social {
+        top: 15px;
+    }
+    
+    .Chefs3 .social li i {
+        font-size: 10px;
+    }
+    
+    .Chefs3 h3 {
+        font-size: 15.72px;
+    }
+    
+    .Chefs3 span {
+        font-size: 12px;
+    }
+    
+    .Chefs3 p {
+        font-size: 12px;
+        padding: 2px;
+    }
+     
+    .img-all::after {
+        content: "";
+        width: 100%;
+        height: 3rem;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-image: url(images/team-shape.svg);
+        background-repeat: repeat-x;
+    }
+    
+
+/* =====================================Gallery section=================================== */
+
+.bg-GALLERY {
+    background-color: #eeeeee;
+    padding-top: 60px;
+}
+
+.gallery-all {
+    padding: 60px 0px;
+}
+
+.gallery-all .GALLERY-contant {
+    text-align: center;
+}
+
+.gallery-img {
+    --gap: 10px;
+    gap: var(--gap);
+    height: 653px;
+}
+
+.GALLERY-contant h2 {
+    font-size: 10px;
+}
+
+.GALLERY-contant p {
+    font-size: 40px;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer p {
+    font-size: 12px;
+    margin-top: -5px;
+    padding: 4px;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer h2 {
+    font-size: 15px;
+}
+
+
+/* =====================================Contact section=================================== */
+
+.Contact-items h2 {
+    font-size: 12px;
+}
+
+.Contact-items p {
+    font-size: 40px;
+}
+
+.Contact-items span {
+    font-size: 40px;
+}
+
+.Contact .ifram {
+    width: 100%;
+}
+
+.item .one-sec {
+    gap: 10px;
+}
+
+.item .one-sec .demo1 {
+    width: 50%;
+}
+
+.demo1 .one h3 {
+    font-size: 18px;
+}
+
+.demo1 {
+    margin-top: 10px;
+}
+
+.demo1 .one p {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.demo1 .one a {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+
+.item i {
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: #ce1212;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.demo2 {
+    margin-top: 10px;
+
+}
+
+.item .two-sec {
+    gap: 10px;
+}
+
+
+.demo2 .one h3 {
+    font-size: 18px;
+}
+
+.demo2 .one p {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.demo2 .one a {
+    font-size: 16px;
+}
+
+/* ========================================footer=================================== */
+
+.foot {
+    width: 100%;
+}
+
+.footer-all {
+    display: flex;
+    flex-wrap: wrap !important;
+
+}
+
+.subscription {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.contact-details {
+    width: 100%;
+    margin: 0px 0px 0px -35px;
+}
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+
+    .bg-navbar {
+        background-color: white;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99999999;
+        box-shadow: 0px 0px 10px gray;
+    }
+    
+    .navber {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 11px 0px;
+    }
+    
+    .navber ul li {
+        display: inline-block;
+    }
+    
+    .navber ul li a {
+        text-decoration: none;
+        font-size: 10px;
+        line-height: normal;
+        color: #7f7f90;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .navber .nav li a:hover {
+        color: #212529;
+    }
+    
+    .navber .nav li a::after {
+        content: " ";
+        width: 0%;
+        height: 2px;
+        background-color: #ce1212;
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+        transition: 1s;
+    }
+    
+    .navber .nav li a:hover::after {
+        width: 80%;
+    }
+    
+    .navber .logo li a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: normal;
+        color: #212529;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        margin-left: -40px;
+        position: relative;
+    }
+    
+    .navber .logo li a::after {
+        content: " ";
+        width: 3px;
+        height: 3px;
+        background-color: #ce1212;
+        position: absolute;
+        bottom: 4px;
+        left: 2.8rem;
+        border-radius: 50%;
+    }
+    
+    .navber .mode {
+        padding-left: 0px;
+    }
+    
+    .navber .mode i {
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .navber .light {
+        display: none;
+    }
+    
+    body:has(.Home:target) .Home-link,
+    body:has(.Chefs:target) .Chefs-link,
+    body:has(.GALLERY:target) .GALLERY-link,
+    body:has(.Contact:target) .Contact-link {
+        color: #000000 !important;
+    }
+    
+    body:has(.Home:target) .Home-link::after,
+    body:has(.Chefs:target) .Chefs-link::after,
+    body:has(.GALLERY:target) .GALLERY-link::after,
+    body:has(.Contact:target) .Contact-link::after {
+        width: 80%;
+    }
+
+  /* =====================================Home section=================================== */
+    
+  .home {
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+.bg-home {
+    background-color: #eeeeee;
+    padding-bottom: 150px;
+}
+
+.home .home-contant {
+    width: 100%;
+
+}
+
+.home .home-img {
+    width: 100%;
+    margin-right: 0.015px;
+    order: -5;
+}
+
+.home .home-img img {
+    width: 100%;
+    filter: drop-shadow(1px 1px 20px gray);
+    margin-left: -30px;
+}
+
+.home-contant h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.home-contant p {
+    font-size: 15px;
+    line-height: 25.6px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.home-contant .book {
+    background-color: #e61414;
+    padding: 15px 30px;
+    border-radius: 0px 30px 30px 30px;
+    font-size: 15px;
+}
+
+.home-contant .video .watch {
+    margin-left: 12px;
+}
+
+.home-contant .video {
+    font-size: 13px;
+    margin-left: 30px;
+    color: #212529;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.home-contant .video:hover {
+    color: rgb(182, 17, 17);
+}
+
+.home-contant .buttons .icon {
+    position: relative;
+    z-index: 9999999;
+    margin-right: 5px;
+
+}
+
+.home-contant .buttons .icon::after {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    z-index: -1;
+    border: #e61414 solid 4px;
+
+}
+
+/* =====================================Chefs section=================================== */
+
+.Chefs-contant {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.Chefs-contant h2 {
+    font-size: 11px;
+    color: #7f7f90;
+    font-family: "Inter", sans-serif;
+    margin-bottom: -45px;
+}
+
+.Chefs-contant p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 35px;
+    color: #212529;
+}
+
+.Chefs-contant span {
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+}
+
+.Chefall {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Chefs1 {
+    width: 100%;
+    margin: 0px 20px 0px 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px rgb(218, 209, 209);
+    position: relative;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Chefs1 .social {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    list-style: none;
+    background-color: rgb(228, 222, 217, 0.6);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s 0.5s;
+}
+
+.Chefs1 .social li i {
+    font-size: 20px;
+    padding: 10px;
+    color: #9d9da8;
+}
+
+.Chefs1 .social li i:hover {
+    color: rgb(22, 22, 22);
+}
+
+.Chefs1 img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Chefs1 h3 {
+    font-size: 18.72px;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+}
+
+.Chefs1 span {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Chefs1 p {
+    font-size: 15px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.Chefs2 {
+    width: 100%;
+    margin: 0px 10px 0px 0px;
+    margin-top: 20px;
+}
+
+.Chefs2 img {
+    width: 100%;
+}
+
+.Chefs2 .social {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    list-style: none;
+    background-color: rgb(228, 222, 217, 0.6);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s 0.5s;
+}
+
+.Chefs2 .social li i {
+    font-size: 20px;
+    padding: 10px;
+    color: #9d9da8;
+}
+
+.Chefs2 .social li i:hover {
+    color: rgb(22, 22, 22);
+}
+
+.Chefs2 h3 {
+    font-size: 18.72px;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+}
+
+.Chefs2 span {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Chefs2 p {
+    font-size: 15px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.Chefs2:hover {
+    transform: scale(1.05);
+
+    .social {
+        opacity: 1;
+        right: 10px;
+
+    }
+}
+
+.Chefs3 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    margin-top: 20px;
+}
+
+.Chefs3 img {
+    width: 100%;
+}
+
+.Chefs3 .social {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    list-style: none;
+    background-color: rgb(228, 222, 217, 0.6);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s 0.5s;
+}
+
+.Chefs3 .social li i {
+    font-size: 20px;
+    padding: 10px;
+    color: #9d9da8;
+}
+
+.Chefs3 .social li i:hover {
+    color: rgb(22, 22, 22);
+}
+
+.Chefs3 h3 {
+    font-size: 18.72px;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+}
+
+.Chefs3 span {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Chefs3 p {
+    font-size: 15px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.Chefs3:hover {
+    transform: scale(1.05);
+
+    .social {
+        opacity: 1;
+        right: 10px;
+    }
+}
+
+.img-all {
+    position: relative;
+}
+
+.img-all::after {
+    content: "";
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(images/team-shape.svg);
+    background-repeat: repeat-x;
+}
+
+/* =====================================Gallery section=================================== */
+
+.bg-GALLERY {
+    background-color: #eeeeee;
+    padding-top: 60px;
+}
+
+.gallery-all {
+    padding: 60px 0px;
+}
+
+.gallery-all .GALLERY-contant {
+    text-align: center;
+}
+
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    /* --gap: 20px;
+    gap: var(--gap); */
+    flex-direction: column;
+    height: 2241px;
+}
+
+.gallery1-img{
+    width: 100% !important;
+}
+
+.gallery-img img {
+    width: 100% !important;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.gallery-img picture {
+    width: calc(calc(100% - var(--gap) *2) /3);
+    border: 4px solid white;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.GALLERY-contant {
+    text-align: center;
+}
+
+.GALLERY-contant h2 {
+    font-size: 11px;
+    color: #7f7f90;
+    font-family: 'Inter', sans-serif;
+}
+
+.GALLERY-contant p {
+    font-size: 35px;
+    color: #212529;
+    font-family: 'Amatic SC', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.GALLERY-contant span {
+    color: #ce1212;
+}
+
+.gallery1-img {
+    position: relative;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(85, 85, 85, 0.57);
+}
+
+.gallery-all .gallery-img .gallery1-img:hover .layer {
+    top: 0px;
+    transition: .3s top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.05);
+
+}
+
+.gallery-all .gallery-img .gallery1-img:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-all .gallery-img .gallery1-img .layer p {
+    font-size: 16px;
+    color: #dddddd;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+/* =====================================Contact section=================================== */
+
+.Contact {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.Contact .Contact-items {
+    text-align: center;
+}
+
+.Contact-items h2 {
+    font-size: 11px;
+    color: #7f7f90;
+    font-family: 'Inter', sans-serif;
+}
+
+.Contact-items p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 35px;
+    color: #212529;
+    margin-top: -4px;
+    margin-bottom: 15px;
+}
+
+.Contact-items span {
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 35px;
+
+}
+
+.Contact .ifram {
+    width: 100%;
+}
+
+.Contact .ifram iframe{
+    height: 50% !important;
+}
+
+.item .one-sec {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    margin-top: 20px;
+}
+
+.item .one-sec .demo1 {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.demo1 .one h3 {
+    font-size: 20px;
+    color: #7d7d7d;
+    font-family: 'Inter', sans-serif;
+}
+
+.demo1 {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.demo1 .one p {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+}
+
+.demo1 .one a {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    text-decoration: none;
+}
+
+
+.item i {
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: #ce1212;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.demo2 {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-top: 10px;
+}
+
+.item .two-sec {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    margin-top: 10px;
+
+}
+
+.item .two-sec .demo2 {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.demo2 .one h3 {
+    font-size: 20px;
+    color: #7d7d7d;
+    font-family: 'Inter', sans-serif;
+}
+
+.demo2 .one p {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+}
+
+.demo2 .one a {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    text-decoration: none;
+}
+
+.Contacts {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 12px rgb(209, 203, 203);
+    margin-bottom: 60px;
+}
+
+.Contacts .cont {
+    color: white;
+    padding-bottom: 50px;
+    display: flex;
+
+}
+
+.Contacts .one {
+    width: 50%;
+    gap: 20px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+    margin-left: 0px;
+}
+
+.Contacts .onee {
+    width: 49.5%;
+    gap: 20px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+    margin-right: 20px;
+}
+
+.Contacts .two {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+}
+
+.cont2 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Contacts .three {
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+}
+
+.cont3 button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #ce1212;
+    border-radius: 20px;
+    border: 2px #ec2403;
+    margin-bottom: 20px;
+}
+
+.cont3 button:hover {
+    background-color: #EC2403;
+}
+
+.cont input[ type="#text"] {
+    padding-right: 10px;
+}
+
+/* ========================================footer=================================== */
+.foot {
+    width: 100%;
+}
+
+.footer-all {
+    display: flex;
+    flex-wrap: wrap !important;
+
+}
+
+.subscription {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.contact-details {
+    width: 100%;
+    margin: 0px 0px 0px -35px;
+}
+
+.quick ul {
+    padding-left: 0px;
+    margin-right: 3px;
+    margin-top: -15px;
+}
+
+.quick ul li a{
+    font-size: 13px;
+}
+
+.quick ul li i {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.Subscribe .sunscription-group input{
+    margin-bottom: 10px;
+}
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 851px) {
+
+
+/* =====================================Gallery section=================================== */
+
+.bg-GALLERY {
+    background-color: #eeeeee;
+    padding-top: 60px;
+}
+
+.gallery-all {
+    padding: 60px 0px !important;
+}
+
+.gallery-all .GALLERY-contant {
+    text-align: center;
+}
+
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    /* --gap: 20px;
+    gap: var(--gap); */
+    flex-direction: column;
+    height: 3000px !important;
+}
+
+.gallery1-img{
+    width: 100% !important;
+}
+
+.gallery-img img {
+    width: 100% !important;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.gallery-img picture {
+    width: calc(calc(100% - var(--gap) *2) /3);
+    border: 4px solid white;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.GALLERY-contant {
+    text-align: center;
+}
+
+.GALLERY-contant h2 {
+    font-size: 11px;
+    color: #7f7f90;
+    font-family: 'Inter', sans-serif;
+}
+
+.GALLERY-contant p {
+    font-size: 35px;
+    color: #212529;
+    font-family: 'Amatic SC', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.GALLERY-contant span {
+    color: #ce1212;
+}
+
+.gallery1-img {
+    position: relative;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(85, 85, 85, 0.57);
+}
+
+.gallery-all .gallery-img .gallery1-img:hover .layer {
+    top: 0px;
+    transition: .3s top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.05);
+
+}
+
+.gallery-all .gallery-img .gallery1-img:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-all .gallery-img .gallery1-img .layer p {
+    font-size: 16px;
+    color: #dddddd;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+
+}

@@ -1,0 +1,964 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* navbar */
+
+.bg-navbar {
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0px;
+}
+
+.navber ul li {
+    display: inline-block;
+}
+
+.navber ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: normal;
+    color: #7f7f90;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding-right: 15px;
+    position: relative;
+}
+
+.navber .nav li a:hover {
+    color: #212529;
+}
+
+.navber .nav li a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #ce1212;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    transition: 1s;
+}
+
+.navber .nav li a:hover::after {
+    width: 80%;
+}
+
+.navber .logo li a {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: normal;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-left: -40px;
+    position: relative;
+}
+
+.navber .logo li a::after {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: #ce1212;
+    position: absolute;
+    bottom: 4px;
+    left: 6.5rem;
+    border-radius: 50%;
+}
+
+.navber .mode {
+    padding-left: 0px;
+}
+
+.navber .mode i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navber .light {
+    display: none;
+}
+
+body:has(.Home:target) .Home-link,
+body:has(.Chefs:target) .Chefs-link,
+body:has(.GALLERY:target) .GALLERY-link,
+body:has(.Contact:target) .Contact-link {
+    color: #000000 !important;
+}
+
+body:has(.Home:target) .Home-link::after,
+body:has(.Chefs:target) .Chefs-link::after,
+body:has(.GALLERY:target) .GALLERY-link::after,
+body:has(.Contact:target) .Contact-link::after {
+    width: 80%;
+}
+
+/* =====================================Home section=================================== */
+
+.home {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg-home {
+    background-color: #eeeeee;
+}
+
+.home .home-contant {
+    width: 40%;
+
+}
+
+.home .home-img {
+    width: 40%;
+    margin-right: 0;
+}
+
+.home .home-img img {
+    width: 100%;
+    filter: drop-shadow(1px 1px 20px gray);
+}
+
+.home .home-img img:hover {
+    animation: shaking 0.3s infinite;
+}
+
+@keyframes shaking {
+    from {
+        transform: translate(1px, 2px);
+    }
+
+    to {
+        transform: translate(-1.5px, -2.5px);
+    }
+}
+
+.home-contant h2 {
+    font-size: 65px;
+    color: #37373f;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+.home-contant p {
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #4f4f5a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.home-contant .book {
+    background-color: #e61414;
+    padding: 15px 30px;
+    border-radius: 0px 30px 30px 30px;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-contant .book:hover {
+    background-color: red;
+}
+
+.home-contant .video .watch {
+    margin-left: 15px;
+}
+
+.home-contant .video {
+    font-size: 16px;
+    margin-left: 30px;
+    color: #212529;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.home-contant .video:hover {
+    color: rgb(182, 17, 17);
+}
+
+.home-contant .buttons .icon {
+    position: relative;
+    z-index: 9999999;
+    margin-right: 5px;
+
+}
+
+.home-contant .buttons .icon::after {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    z-index: -1;
+    border: #e61414 solid 4px;
+
+}
+
+
+
+/* =====================================Chefs section=================================== */
+
+.Chefs-contant {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.Chefs-contant h2 {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Inter", sans-serif;
+    margin-bottom: -45px;
+}
+
+.Chefs-contant p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+    color: #212529;
+}
+
+.Chefs-contant span {
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+}
+
+.Chefall {
+    display: flex;
+    text-align: center;
+}
+
+.Chefs1 {
+    width: 33.333%;
+    margin: 0px 20px 0px 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px rgb(218, 209, 209);
+    position: relative;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.Chefs1 .social {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    list-style: none;
+    background-color: rgb(228, 222, 217, 0.6);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s 0.5s;
+}
+
+.Chefs1 .social li i {
+    font-size: 20px;
+    padding: 10px;
+    color: #9d9da8;
+}
+
+.Chefs1 .social li i:hover {
+    color: rgb(22, 22, 22);
+}
+
+.Chefs1 img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Chefs1 h3 {
+    font-size: 18.72px;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+}
+
+.Chefs1 span {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Chefs1 p {
+    font-size: 15px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.Chefs1:hover {
+    transform: scale(1.05);
+
+    .social {
+        opacity: 1;
+        right: 10px;
+    }
+}
+
+.Chefs2 {
+    width: 33.333%;
+    margin: 0px 10px 0px 10px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px rgb(218, 209, 209);
+    position: relative;
+    border-radius: 10px;
+}
+
+.Chefs2 img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Chefs2 .social {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    list-style: none;
+    background-color: rgb(228, 222, 217, 0.6);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s 0.5s;
+}
+
+.Chefs2 .social li i {
+    font-size: 20px;
+    padding: 10px;
+    color: #9d9da8;
+}
+
+.Chefs2 .social li i:hover {
+    color: rgb(22, 22, 22);
+}
+
+.Chefs2 h3 {
+    font-size: 18.72px;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+}
+
+.Chefs2 span {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Chefs2 p {
+    font-size: 15px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.Chefs2:hover {
+    transform: scale(1.05);
+
+    .social {
+        opacity: 1;
+        right: 10px;
+
+    }
+}
+
+.Chefs3 {
+    width: 33.333%;
+    margin: 0px 0px 0px 20px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px rgb(218, 209, 209);
+    position: relative;
+    border-radius: 10px;
+}
+
+.Chefs3 img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Chefs3 .social {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    list-style: none;
+    background-color: rgb(228, 222, 217, 0.6);
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s 0.5s;
+}
+
+.Chefs3 .social li i {
+    font-size: 20px;
+    padding: 10px;
+    color: #9d9da8;
+}
+
+.Chefs3 .social li i:hover {
+    color: rgb(22, 22, 22);
+}
+
+.Chefs3 h3 {
+    font-size: 18.72px;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+}
+
+.Chefs3 span {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Chefs3 p {
+    font-size: 15px;
+    color: #7f7f90;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.Chefs3:hover {
+    transform: scale(1.05);
+
+    .social {
+        opacity: 1;
+        right: 10px;
+    }
+}
+
+.img-all {
+    position: relative;
+}
+
+.img-all::after {
+    content: "";
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(images/team-shape.svg);
+    background-repeat: repeat-x;
+}
+
+/* =====================================Gallery section=================================== */
+
+.bg-GALLERY {
+    background-color: #eeeeee;
+    padding-top: 60px;
+}
+
+.gallery-all {
+    padding: 60px 0px;
+}
+
+.gallery-all .GALLERY-contant {
+    text-align: center;
+}
+
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    --gap: 20px;
+    gap: var(--gap);
+    flex-direction: column;
+    height: 976px;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.gallery-img picture {
+    width: calc(calc(100% - var(--gap) *2) /3);
+    border: 4px solid white;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.GALLERY-contant {
+    text-align: center;
+}
+
+.GALLERY-contant h2 {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: 'Inter', sans-serif;
+}
+
+.GALLERY-contant p {
+    font-size: 50px;
+    color: #212529;
+    font-family: 'Amatic SC', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.GALLERY-contant span {
+    color: #ce1212;
+}
+
+.gallery1-img {
+    position: relative;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(85, 85, 85, 0.57);
+}
+
+.gallery-all .gallery-img .gallery1-img:hover .layer {
+    top: 0px;
+    transition: .3s top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.05);
+
+}
+
+.gallery-all .gallery-img .gallery1-img:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-all .gallery-img .gallery1-img .layer p {
+    font-size: 16px;
+    color: #dddddd;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.gallery-all .gallery-img .gallery1-img .layer h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+/* =====================================Contact section=================================== */
+
+.Contact {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.Contact .Contact-items {
+    text-align: center;
+}
+
+.Contact-items h2 {
+    font-size: 14px;
+    color: #7f7f90;
+    font-family: 'Inter', sans-serif;
+}
+
+.Contact-items p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+    color: #212529;
+    margin-top: -4px;
+    margin-bottom: 15px;
+}
+
+.Contact-items span {
+    color: #ce1212;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+
+}
+
+.Contact .ifram {
+    width: 100%;
+}
+
+.item .one-sec {
+    display: flex;
+    gap: 20px;
+}
+
+.item .one-sec .demo1 {
+    background-color: #f5f5f5;
+    width: 50%;
+}
+
+.demo1 .one h3 {
+    font-size: 20px;
+    color: #7d7d7d;
+    font-family: 'Inter', sans-serif;
+}
+
+.demo1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.demo1 .one p {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+}
+
+.demo1 .one a {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    text-decoration: none;
+}
+
+
+.item i {
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: #ce1212;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.demo2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.item .two-sec {
+    display: flex;
+    gap: 20px;
+}
+
+.item .two-sec .demo2 {
+    background-color: #f5f5f5;
+    width: 50%;
+}
+
+.demo2 .one h3 {
+    font-size: 20px;
+    color: #7d7d7d;
+    font-family: 'Inter', sans-serif;
+}
+
+.demo2 .one p {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+}
+
+.demo2 .one a {
+    font-size: 16px;
+    color: #212529;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    text-decoration: none;
+}
+
+.Contacts {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 12px rgb(209, 203, 203);
+    margin-bottom: 60px;
+}
+
+.Contacts .cont {
+    color: white;
+    padding-bottom: 50px;
+    display: flex;
+
+}
+
+.Contacts .one {
+    width: 50%;
+    gap: 20px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+    margin-left: 0px;
+}
+
+.Contacts .onee {
+    width: 49.5%;
+    gap: 20px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+    margin-right: 20px;
+}
+
+.Contacts .two {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+}
+
+.cont2 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Contacts .three {
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    border: solid 1px rgb(207, 201, 201);
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+}
+
+.cont3 button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #ce1212;
+    border-radius: 20px;
+    border: 2px #ec2403;
+    margin-bottom: 20px;
+}
+
+.cont3 button:hover {
+    background-color: #EC2403;
+}
+
+.cont input[ type="#text"] {
+    padding-right: 10px;
+}
+
+/* ========================================footer=================================== */
+
+.bg-footer {
+    background-image: url(images/textured-metal-background.jpg);
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+.footer-all {
+    display: flex;
+}
+
+.foot .Mealify {
+    display: flex;
+}
+
+.foot {
+    width: 35%;
+}
+
+.foot img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.foot h2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 2px;
+}
+
+.foot .point {
+    width: 5px;
+    height: 5px;
+    color: #ce1212;
+}
+
+.foot p {
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.foot h3 {
+    color: white;
+    font-size: 18.72px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 60px;
+}
+
+.line {
+    border: solid 1px gray;
+}
+
+.foot .social-icon li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 5px;
+}
+
+.foot .social-icon li a {
+    color: white;
+    font-size: 20px;
+}
+
+.subscription {
+    width: 65%;
+    margin-left: 40px;
+}
+
+.subscription .Subscribe h3 {
+    color: white;
+    font-size: 18.72px;
+    font-family: 'Inter', sans-serif;
+}
+
+.subscription .Subscribe p {
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.subscription .Subscribe .sunscription-group input {
+    border: none;
+    width: 75%;
+    height: 36px;
+}
+
+.subscription .Subscribe .sunscription-group button {
+    background-color: #e61414;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.quick-all h3 {
+    color: white;
+    font-size: 18.72px;
+    font-family: 'Inter', sans-serif;
+}
+
+.quick ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.quick {
+    display: flex;
+}
+
+.quick ul li {
+    padding: 5px 60px 5px 0px;
+    transition: 0.2s all;
+}
+
+.quick ul li:hover {
+    background-color: #222222;
+    transform: translate(5px, 0px);
+}
+
+.quick ul {
+    padding-left: 5px;
+    margin-right: 60px;
+    margin-top: -15px;
+}
+
+.quick ul li i {
+    color: white;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.quick ul li{
+    list-style: none;
+}
+
+
+.contact-details {
+    width: 45%;
+    padding: 0px 0px 0px -10px;
+}
+
+.contact-details h3 {
+    color: white;
+    font-size: 18.72px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 35px;
+    margin-bottom: -5px;
+}
+
+.contact-details ul li span {
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.contact-details ul li .span2 {
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-left: 40px;
+}
+
+.contact-details ul li a {
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-decoration: none;
+}
+
+.contact-details ul li{
+    list-style: none;
+}
+
+.contact-details ul li i {
+    color: red;
+    padding-right: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
